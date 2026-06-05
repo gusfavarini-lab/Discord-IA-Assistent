@@ -1,0 +1,33 @@
+{
+  "prefix": "!",
+  "embedColor": "#5865F2",
+  "moderation": {
+    "enabled": true,
+    "maxRepeatedMessages": 4,
+    "floodWindowMs": 7000,
+    "blockedWords": [
+      "palavra-proibida"
+    ]
+  },
+  "channels": {
+    "logs": "ID_DO_CANAL_DE_LOGS",
+    "ticketsCategory": "ID_DA_CATEGORIA_DE_TICKETS"
+  },
+  "logs": {
+    "enabled": true,
+    "events": {
+      "members": true,
+      "messages": true,
+      "roles": true,
+      "channels": true,
+      "bans": true,
+      "voice": true,
+      "moderation": true,
+      "tickets": true
+    }
+  },
+  "roles": {
+    "support": "ID_DO_CARGO_SUPORTE",
+    "admin": "ID_DO_CARGO_ADMIN"
+  }
+}
